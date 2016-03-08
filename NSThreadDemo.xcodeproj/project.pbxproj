@@ -15,6 +15,8 @@
 		085F77981C8E744500AF75C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085F77961C8E744500AF75C1 /* LaunchScreen.storyboard */; };
 		085F77A31C8E744500AF75C1 /* NSThreadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F77A21C8E744500AF75C1 /* NSThreadDemoTests.m */; };
 		085F77AE1C8E744500AF75C1 /* NSThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F77AD1C8E744500AF75C1 /* NSThreadDemoUITests.m */; };
+		085F77BD1C8E7F7200AF75C1 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F77BC1C8E7F7200AF75C1 /* NSOperationViewController.m */; };
+		085F77C01C8E7F7E00AF75C1 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085F77BF1C8E7F7E00AF75C1 /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		085F77A91C8E744500AF75C1 /* NSThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		085F77AD1C8E744500AF75C1 /* NSThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoUITests.m; sourceTree = "<group>"; };
 		085F77AF1C8E744500AF75C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085F77BB1C8E7F7200AF75C1 /* NSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		085F77BC1C8E7F7200AF75C1 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		085F77BE1C8E7F7E00AF75C1 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		085F77BF1C8E7F7E00AF75C1 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				085F778C1C8E744500AF75C1 /* AppDelegate.m */,
 				085F778E1C8E744500AF75C1 /* ViewController.h */,
 				085F778F1C8E744500AF75C1 /* ViewController.m */,
+				085F77BB1C8E7F7200AF75C1 /* NSOperationViewController.h */,
+				085F77BC1C8E7F7200AF75C1 /* NSOperationViewController.m */,
+				085F77BE1C8E7F7E00AF75C1 /* GCDViewController.h */,
+				085F77BF1C8E7F7E00AF75C1 /* GCDViewController.m */,
 				085F77911C8E744500AF75C1 /* Main.storyboard */,
 				085F77941C8E744500AF75C1 /* Assets.xcassets */,
 				085F77961C8E744500AF75C1 /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				085F77901C8E744500AF75C1 /* ViewController.m in Sources */,
 				085F778D1C8E744500AF75C1 /* AppDelegate.m in Sources */,
 				085F778A1C8E744500AF75C1 /* main.m in Sources */,
+				085F77C01C8E7F7E00AF75C1 /* GCDViewController.m in Sources */,
+				085F77BD1C8E7F7200AF75C1 /* NSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
